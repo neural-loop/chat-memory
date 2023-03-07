@@ -1,0 +1,12 @@
+{
+    "name": "chat-memory",
+    "version": "0.0.3",
+    "scripts": {
+        "test": "mocha --require mock-local-storage tests/chat-memory.test.js"
+    },
+    "dependencies": {
+        "chai": "^4.3.7",
+        "mocha": "^10.2.0",
+        "mock-local-storage": "^1.1.23"
+    }
+}
